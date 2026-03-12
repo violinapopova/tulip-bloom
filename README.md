@@ -103,17 +103,6 @@ Animations are implemented with **Tailwind CSS** only (no external animation lib
 - **Leaves**: `transition-opacity` for fade-in at stage 2
 - **Bud**: Built-in `animate-pulse` for a subtle breathing effect
 - **Bloom**: Custom `bloom-in` keyframe (scale + rotate + fade) defined in `tailwind.config.js`
-
-## Mobile Version
-
-A React Native (Expo) version of this project lives in the `mobile/` directory. Run it with:
-
-```bash
-cd mobile
-npm install
-npx expo start
-```
-
 Then press `i` for iOS simulator, `a` for Android, or `w` for web.
 
 ## License
