@@ -1,5 +1,6 @@
 {
   "name": "tulip-bloom",
+  "homepage": "https://violinapopova.github.io/tulip-bloom",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.27",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.577.0",
     "postcss": "^8.5.8",
     "react": "^19.2.4",
